@@ -13,4 +13,8 @@ class PurchaseOrder extends Model
     public function purchase_order_details(){
         return $this->hasMany(PurchaseOrderDetail::class);
     }
+
+    public function outlet(){
+        return $this->belongsTo(Outlet::class);
+    }
 }

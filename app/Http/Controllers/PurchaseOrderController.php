@@ -58,7 +58,7 @@ class PurchaseOrderController extends Controller
         $outlets = Outlet::pluck('name','id');
         $warehouses = Warehouse::pluck('name','id');
         $products = Product::pluck('name','id');
-        return view('purchase_orders.show', compact('purchase_order', 'outlets', 'warehouses', 'products'));
+        return view('purchase_orders.edit', compact('purchase_order', 'outlets', 'warehouses', 'products'));
     }
 
     public function update(Request $request, $id) {
