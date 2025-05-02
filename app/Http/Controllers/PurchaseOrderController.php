@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use \DB;
 use Validate;
 use App\Models\PurchaseOrder;
 use App\Models\Outlet;
