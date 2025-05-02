@@ -13,6 +13,9 @@
 <a href="{{route('warehouses.index')}}" class="btn btn-secondary btn-sm">
     Gudang
 </a>
+<a href="{{route('purchase_orders.index')}}" class="btn btn-primary btn-sm">
+    Order Pembelian / PO
+</a>
 </br>
 <h2>Selamat Datang di Sistem Distribusi Sederhana</h2>
 @endsection
